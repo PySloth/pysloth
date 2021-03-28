@@ -14,7 +14,7 @@ def scpd_function(
     n_delta: int,
     shuffle_ind: bool = True
 ) -> Tuple[np.ndarray, np.ndarray]:
-    """ SCPD
+    """ Split Conformal Predictive Distributions
 
     Parameters
     ----------
@@ -59,7 +59,7 @@ def ccpd_function(
     K: int,
     n_delta: int
 ) -> Tuple[np.ndarray, np.ndarray]:
-    """ CCPD
+    """ Cross Conformal Predictive Distributions
 
     Parameters
     ----------
@@ -95,9 +95,9 @@ def crps_function(yRange, Q, y) -> float:
     Parameters
     ----------
     yRange: np.ndarray
-        Target range
+        Range over which Q was computed
     Q: np.ndarray
-        Q
+        Distribution function
     y: float
         Target
 
