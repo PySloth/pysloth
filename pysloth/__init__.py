@@ -138,7 +138,9 @@ a
 
     """
 
-    xy_train_cal = np.concatenate((x_train_cal, np.reshape(y_train_cal, (len(x_train_cal), 1))), axis=1)
+    xy_train_cal = np.concatenate(
+        (x_train_cal, np.reshape(y_train_cal, (len(x_train_cal), 1))), axis=1
+    )
 
     n = len(x_train_cal)
     n_test = len(x_test)
@@ -177,7 +179,9 @@ a
             alpha_cal_fold = y_cal - y_hat_cal
 
             for i in range(len(y_grid)):
-                q_folds[l, i, k_] = 1 / (len(x_cal) + 1) * np.sum(alpha_cal_fold < alpha_y_fold[l, i])
+                q_folds[l, i, k_] = (
+                    1 / (len(x_cal) + 1) * np.sum(alpha_cal_fold < alpha_y_fold[l, i])
+                )
             k_ = k_ + 1
 
     for l in range(len(x_test)):
