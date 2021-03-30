@@ -130,7 +130,7 @@ def ccpd_function(
         Number of fold
     n_delta: int
         Number of discrete values in an interval
-a
+
     Returns
     -------
     Tuple[np.ndarray, np.ndarray]
@@ -192,7 +192,7 @@ a
     return (q_folds, p_folds)
 
 
-def crps_function(y_range, q, y) -> float:
+def crps_function(y_range: np.ndarray, q: np.ndarray, y: float) -> float:
     """ Continuously Ranked Probabilistic System
 
     Parameters
@@ -226,6 +226,6 @@ def crps_function(y_range, q, y) -> float:
         sum2 = (q2[1] ** 2) * (step - (y - y_range[ind]))
 
     sum2 = sum2 + np.sum(q2[2:len(q2)]**2) * step
-    sum = sum1 + sum2
+    total_sum = sum1 + sum2
 
-    return(sum)
+    return total_sum
