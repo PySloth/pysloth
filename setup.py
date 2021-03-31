@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pysloth",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(exclude=["etc", "tests", "docs"]),
     description="Probabilistic Predictions",
     long_description=long_description,
