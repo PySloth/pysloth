@@ -20,7 +20,7 @@ setup(
     install_requires=[
         "statsmodels>=0.12.2",
         "scikit-learn>=0.24.1",
-        "numpy>=1.20.1",
+        "numpy>=1.19.2",
     ],
     tests_require=["pytest"],
     setup_requires=['pytest-runner'],
