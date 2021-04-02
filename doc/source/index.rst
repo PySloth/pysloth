@@ -1,17 +1,12 @@
-.. pysloth documentation master file, created by
-   sphinx-quickstart on Wed Mar 31 20:16:15 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-.. include:: readme.rst
+PySloth
+=======
+A Python package for Probabilistic Prediction
 
 .. toctree::
-   :maxdepth: 4
-   :caption: Contents:
+   :maxdepth: 1
 
-Indices and tables
-==================
+   installation/index
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   quickstart/index
+
+   api_reference/index
