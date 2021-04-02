@@ -1,3 +1,10 @@
+.. image:: https://img.shields.io/pypi/v/pysloth
+   :target: https://pypi.org/project/pysloth/
+
+.. image:: https://readthedocs.org/projects/pysloth/badge/?version=latest
+   :target: https://pysloth.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
 pysloth
 =======
 A Python package for Probabilistic Prediction
