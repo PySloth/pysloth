@@ -5,6 +5,12 @@
    :target: https://pysloth.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
+.. image:: https://github.com/PySloth/pysloth/actions/workflows/build-and-tests.yml/badge.svg
+   :target: https://github.com/PySloth/pysloth
+
+.. image:: https://codecov.io/gh/PySloth/pysloth/branch/main/graph/badge.svg?token=gAMTe66DIg
+   :target: https://codecov.io/gh/PySloth/pysloth
+
 pysloth
 =======
 A Python package for Probabilistic Prediction
