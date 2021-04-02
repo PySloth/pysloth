@@ -24,6 +24,7 @@ author = 'Valery Manokhin'
 # The full version, including alpha/beta/rc tags
 release = 'v0.0.2'
 
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
@@ -31,6 +32,8 @@ release = 'v0.0.2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,6 +51,10 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'pydata_sphinx_theme'
+
+html_theme_options = {
+    "show_prev_next": False
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
