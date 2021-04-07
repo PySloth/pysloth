@@ -11,10 +11,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="https://github.com/PySloth/pysloth",
-    author="Valery Manokhin",
-    author_email="valery.manokhin.2015@live.rhul.ac.uk",
-    maintainer="leonarduschen",
-    maintainer_email="leonardus.chen@gmail.com",
+    author="PySloth",
+    author_email="pysloth.python@gmail.com",
     license="Apache Software License",
     classifiers=[
         "Programming Language :: Python :: 3",
