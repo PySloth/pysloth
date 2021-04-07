@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'pysloth'
-copyright = '2021, Valery Manokhin'
-author = 'Valery Manokhin'
+copyright = '2021, PySloth'
+author = 'PySloth'
 
 # The full version, including alpha/beta/rc tags
 release = 'v0.0.2'
