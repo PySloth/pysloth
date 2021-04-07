@@ -15,7 +15,7 @@ setup(
     author_email="valery.manokhin.2015@live.rhul.ac.uk",
     maintainer="leonarduschen",
     maintainer_email="leonardus.chen@gmail.com",
-    license="MIT",
+    license="Apache Software License",
     scripts=[],
     install_requires=[
         "statsmodels>=0.12.2",
