@@ -11,6 +11,9 @@ exclude_lines =
 ignore_errors = True
 omit =
     tests/*
+    docs/*
+    etc/*
+    setup.py
 
 [html]
 directory = coverage_html_report
