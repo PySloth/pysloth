@@ -14,6 +14,11 @@
 .. image:: https://pepy.tech/badge/pysloth
    :target: https://pepy.tech/project/pysloth
 
+.. image:: https://pepy.tech/badge/pysloth/month
+   :target: https://pepy.tech/project/pysloth
+
+.. image:: https://pepy.tech/badge/pysloth/week
+   :target: https://pepy.tech/project/pysloth
 
 pysloth
 =======
