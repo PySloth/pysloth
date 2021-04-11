@@ -11,6 +11,10 @@
 .. image:: https://codecov.io/gh/PySloth/pysloth/branch/main/graph/badge.svg?token=gAMTe66DIg
    :target: https://codecov.io/gh/PySloth/pysloth
 
+.. image:: https://pepy.tech/badge/pysloth
+   :target: https://pepy.tech/project/pysloth
+
+
 pysloth
 =======
 A Python package for Probabilistic Prediction
