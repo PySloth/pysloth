@@ -75,3 +75,9 @@ The following is a code sample showing ``scpd`` and ``ccpd`` in action
     print(ccpd_function(x_train_cal, y_train_cal, x_test, y_grid, 5, n_delta))
     print(scpd_function(x_train, x_cal, y_train, y_cal, x_test, y_test, y_grid, 5, n_delta))
 
+
+References
+----------
+If you use the code for academic purposes please cite:
+
+Vovk, V., Nouretdinov, I., Manokhin, V. & Gammerman, A.. (2018). Cross-conformal predictive distributions. Proceedings of the Seventh Workshop on Conformal and Probabilistic Prediction and Applications, in PMLR 91:37-51
